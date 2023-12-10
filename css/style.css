@@ -1,0 +1,285 @@
+:root{
+    --azul: #3c5ce8;
+    --black: #111112;
+    --branco: #fcfdff;
+    --aqua: #24c5ed;
+    --azulado: #78c4af;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  .container {
+    background-color: var(--aqua);
+}
+
+  .header{
+    position: fixed;
+    background-color: var(--azulado) ;
+    width: 100%;
+    height: 40px;
+
+  }
+
+.logo > a {
+    display: inline-block;
+    margin: 0 50px;
+    color: var(--black);
+    font-family: 'Rubik Bubbles' !important;
+    font-size: 1.0em;
+    text-decoration: none;
+    }
+ 
+.header-menu{
+    display: contents; 
+}
+
+
+.header-menu >a {
+    margin: 30px;
+    font-size: 1.0em;
+    color: var(--branco) ;
+}
+
+.header-menu  > a:hover {
+    border-bottom: 2px solid var(--branco);
+}
+
+#home{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    height: 200px;
+    
+}
+
+#home > img{
+    width: 200px;
+    height: 170px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.dados{
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+#home h1 {
+    font-size: 3em;
+    color: var(--preto);
+  }
+  
+#home h2 {
+    font-size: 1em;
+    color: var(--preto);
+  }
+.dados {
+    margin-left: 20px;
+    font-size: 0.em;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sobre {
+    margin: 40px 0;
+    width: 100%;
+    height: 50vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subtitulo-secao{
+  font-size: 3em;
+  }
+  
+  .subtitulo-secao-p{
+    text-align: justify;
+    font-size: 1em;
+    padding-right: 30px;
+  }
+
+
+
+#sobre img {
+    width: 30%;
+    height:auto;
+    border-radius: 15px;
+    margin: 40px;
+    right: 0;
+    box-shadow: 2px 2px 1em rgb(157, 156, 156);
+  }
+
+
+#dados_contato {
+    width: 100%;
+    height: 50vh;
+    padding: 4em;
+    background: var(--azul);
+    color: white;
+  
+    display: flex;
+    justify-content: space-between;
+}
+  
+#dados_contato h3 {
+    height: min-content;
+    border-bottom: 4px solid var(--laranja);
+}
+  
+#dados_contato ul {
+    width: 30%;
+}
+  
+#dados_contato li {
+    list-style: none;
+    padding: 1em 0;
+    display: flex; 
+    justify-content: start;
+    align-items: center;
+}
+  
+#dados_contato i {
+    font-size: 1.8em;
+    margin-right: 15px;
+}
+  
+#dados_contato a {
+    color: white;
+}
+  
+#formacoes {
+    width: 100%;
+    height: 90vh;
+    padding: 4em;
+}
+
+#formacoes ol {
+    display: inline-block; 
+}
+  
+#formacoes ol li{
+    display: contents;
+    padding: 2em;
+    margin-right: 3em;
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.formacoes_titulo-lista {
+    border-bottom: 4px solid var(--branco);
+    font-weight: 600;
+  }
+  
+  #experiencias {
+    width: 100%;
+    height: auto;
+    color: var(--branco);
+  }
+
+  .experiencias-card{
+    flex-wrap: flex;
+    background-color:var(--aqua);
+    
+  }
+  
+  #experiencias ol {
+    padding: 2em 4em 4em;
+    font-size: 1.2em;
+  }
+  
+  #experiencias li {
+    margin-bottom: 15px;
+    list-style: none;
+  }
+
+  #experiencias span{
+    font-size: 1em;
+  }
+
+#experiencias p {
+    text-align: justify;
+    font-size: 0.9em;
+}
+  
+  .experiencias-conteudo {
+    padding: 4em;
+  }
+  
+  .experiencias-container {
+    background-color: var(--azul);
+  }
+
+#cursos{
+    width: 100%;
+    height: 90vh;
+    padding: 4em;
+}
+    
+    #cursos ol {
+        display: inline-block; 
+    }
+      
+    #formacoes ol li{
+        display: contents;
+        padding: 2em;
+        margin-right: 3em;
+        list-style: none;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+    
+    .formacoes_titulo-lista {
+        border-bottom: 4px solid var(--branco);
+        font-weight: 600;
+      }
+
+#cursos{
+    width: 100%;
+    height: auto;
+}
+  
+  
+      #footer {
+        width: 100%;
+        background-color: var(--azulado);
+      
+        display: flex;
+        padding: 1em 4em;
+        justify-content: space-between;
+      }
+      
+      #footer nav {
+        display: flex;
+      }
+      
+      #footer a {
+        color: var(--azul);
+        padding: 0 1em;
+        display: flex;
+        align-items: center;
+      }
+      
+      #footer i {
+        font-size: 1.3em;
+        padding-right: .5em;
+      }
+    
+  #link-home {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    color: var(--azul);
+    background-color: var(--branco);
+    border-radius: 50%;
+    z-index: 100;
+    font-size: 3em;
+  }
